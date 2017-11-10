@@ -55,7 +55,7 @@ def all_supplies_in_holidays(holiday_hash)
       #binding.pry
       puts "  #{holiday_name.to_s}: #{supply_arrays.join(", ")}"
     #split('_').capitalize.join(' ')
-      
+
       #supply_arrays.each do |supply_array, supplies|
      #binding.pry
       #puts <<~HEREDOC
