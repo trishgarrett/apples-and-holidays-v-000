@@ -55,9 +55,8 @@ def all_supplies_in_holidays(holiday_hash)
       #binding.pry
       puts "  #{holiday_name.split('_').collect do |word|
           word.capitalize
+        end.join(' ')}: #{supply_arrays.join(", ")}"
 
-          .capitalize.join(' ')}: #{supply_arrays.join(", ")}"
-    
 
       #supply_arrays.each do |supply_array, supplies|
      #binding.pry
