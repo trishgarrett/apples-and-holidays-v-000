@@ -53,7 +53,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     holiday_names.each do |holiday_name, supply_arrays|
       binding.pry
-      puts "  #{holiday_name.split(_).capitalize.join(" ")}: #{supply_arrays.join(", ")}"
+      puts "  #{holiday_name.split("_").capitalize.join(" ")}: #{supply_arrays.join(", ")}"
       #supply_arrays.each do |supply_array, supplies|
      #binding.pry
       #puts <<~HEREDOC
